@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "personal-financial-wallet"
+version = "0.1.0"
+description = "Application for accounting personal income and expenses"
+authors = ["Dmitrii Ivanov <dmitriy.site1@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pandas = "^2.2.2"
+pytest = "^8.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
